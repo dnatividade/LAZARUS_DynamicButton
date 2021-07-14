@@ -1,0 +1,21 @@
+object Form1: TForm1
+  Left = 700
+  Height = 358
+  Top = 196
+  Width = 437
+  Caption = 'Dynamic buttons'
+  ClientHeight = 358
+  ClientWidth = 437
+  OnCreate = FormCreate
+  LCLVersion = '2.0.2.0'
+  object ScrollBox1: TScrollBox
+    Left = 0
+    Height = 358
+    Top = 0
+    Width = 437
+    HorzScrollBar.Page = 1
+    VertScrollBar.Page = 1
+    Align = alClient
+    TabOrder = 0
+  end
+end
